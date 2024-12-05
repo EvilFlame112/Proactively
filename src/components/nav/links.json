@@ -41,6 +41,10 @@
         },
         {
             "label": "|"
+        },
+        {
+            "label": "Login/Signup",
+            "href": "/login"
         }
 
     ]

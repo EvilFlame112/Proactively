@@ -9,6 +9,11 @@ type Link = {
     label: string;
     href: string;
 };
+type Drop = {
+    label: string;
+    href: string;
+    parent: Link;
+}
 const Links: React.FC<{ links: Link[] }> = ({ links }) => {
     return (
         <div className={styles['links-container']}>
