@@ -16,7 +16,7 @@ interface BannerPorpsb {
 
 export function ImageSection({ images, speed }: BannerPorps) {
     const imagesStyle = {
-        animation: `swipe ${speed}ms linear infinite`,
+        animation: `swipeb ${speed}ms linear infinite`,
       };
 
     return (
@@ -32,7 +32,7 @@ export function ImageSection({ images, speed }: BannerPorps) {
 
 export function ImageSectionb({ imagesb, speed }: BannerPorpsb) {
     const imagesStyle = {
-        animation: `swipeb ${speed}ms linear infinite`,
+        animation: `swipe ${speed}ms linear infinite`,
       };
 
     return (
