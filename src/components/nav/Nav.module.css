@@ -1,49 +1,94 @@
-.navbar{
-    width: 100vw;
-    height: 92px;
-    margin: 0;
-    padding: 0;
-    margin-left: 0%;
-    background: #F7F7F7;
-    border-bottom: 1px solid #d4d4d4;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logoContainer {
+    flex: 0 0 auto;
+  }
+  
+  .logo {
+    width: auto;
+  }
+  
+  .navList {
+    list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-
-.logo-container {
-    margin-left: 80px;
-}
-
-.logo-container span {
-    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+  }
+  
+  .navItem {
+    display: flex;
+    margin: 0 10px;
+    position: relative;
+    color: #707070;
     cursor: pointer;
-}
-
-.links-container {
-    margin-right: 80px;
+  }
+  
+  .separator {
+    margin: 0 5px;
+    color: #ccc;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    right: 2px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    z-index: 1000;
+    width: 200px; /* Adjust width as necessary */
+  }
+  
+  .dropdownItem {
     display: flex;
-    width: 800px;
-    justify-content: space-evenly;
-}
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Inter";
+    color: #333;
+  }
+  
+  .leftAlign {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .rightAlign {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .link {
+    margin-left: 5px;
+    color: #007bff;
+    text-decoration: none;
+  }
 
-.link a {
-    text-decoration: none;
-    color: rgb(80, 80, 80);
-}
+  .doctor{
+    border-bottom: 1px solid #EBEBEB;
+  }
 
-.link a:hover {
-    text-decoration: none;
-    color: rgb(51, 51, 51);
-}
-.dropdown{
-    margin-right: 20px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.dropdown li{
-    list-style: none;
-    text-decoration: none;
-    color: rgb(80, 80, 80);
-}
+  .login{
+    padding-right: 10px;
+  }
+
+  .dropdownIcon{
+    position: relative;
+    top: 8px;
+  }
+  
