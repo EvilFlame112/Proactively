@@ -4,6 +4,7 @@ import { imagesb } from '../banner1/data2'
 import Search from '../search/Search';
 import Colorele from '../colourelements/Colorele';
 import Barele from '../colourelements/Barele';
+import Colorele3 from '../colourelements/Colorele3';
 
 const Title = () => {
     const containerStyle = {
@@ -25,6 +26,9 @@ const Title = () => {
 
   return (
     <div className='container' style={containerStyle}>
+        <div className='colorEle2'>
+            <Colorele3 />
+        </div>
         <div className="colorEle" style={colorEle}>
             <Colorele />
         </div>
