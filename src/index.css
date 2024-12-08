@@ -1,6 +1,5 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
@@ -57,11 +56,11 @@
 }
 .fl{
   display: flex;
-  position: absolute;
-  width: 700px;
+  position: relative;
+  width: max-content;
   height: 104px;
-  left: 950px;
-  top: 314px;
+  left: 328px;
+  top: 218px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -77,11 +76,10 @@
 .lm{
   /* Book an appointment with lifestyle medicine experts */
   display: flex;
-  position: absolute;
-  width: 700px;
+  position: relative;
   height: 104px;
-  left: 950px;
-  top: 360px;
+  left: 328px;
+  top: 160px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -100,11 +98,10 @@
 .ll{
   /* Book an appointment with lifestyle medicine experts */
   display: flex;
-  position: absolute;
-  width: 599px;
+  position: relative;
   height: 104px;
-  left: 1405px;
-  top: 359px;
+  left: 785px;
+  top: 55px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -118,13 +115,13 @@
 }
 .subtext{
   /* Optimize your lifestyle and reverse chronic diseases. */
+  width: max-content;
   display: flex;
   flex-grow: 1;
-  position: absolute;
-  width: 630px;
+  position: relative;
   height: 32px;
-  left: 950px;
-  top: 442px;
+  left: 330px;
+  top: 40px;
 
   font-family: 'Inter';
   font-style: normal;

@@ -23,7 +23,7 @@ export function ImageSection({ images, speed }: BannerPorps) {
         <div className={styles['images']} style={imagesStyle}>
             {images.map(({ src, name }) => (
                 <div className={styles['image']}>
-                    <img src={src} alt={name} />
+                    <img className={styles['col1']} src={src} alt={name} />
                 </div>
             ))}
         </div>
@@ -39,7 +39,7 @@ export function ImageSectionb({ imagesb, speed }: BannerPorpsb) {
         <div className={styles['images']} style={imagesStyle}>
             {imagesb.map(({ src, name }) => (
                 <div className={styles['image']}>
-                    <img src={src} alt={name} />
+                    <img className={styles['col1']} src={src} alt={name} />
                 </div>
             ))}
         </div>

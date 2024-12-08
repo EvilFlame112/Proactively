@@ -1,8 +1,8 @@
-img {
+.col1 {
   max-width: 247px;
   height: 354px;
   object-fit: cover;
-  padding: 0 10px;
+  padding: 10px;
   cursor: pointer;
   border-radius: 35px 35px 50px 50px;
   padding-bottom: 19px;
