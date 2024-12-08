@@ -119,6 +119,7 @@
 .subtext{
   /* Optimize your lifestyle and reverse chronic diseases. */
   display: flex;
+  flex-grow: 1;
   position: absolute;
   width: 630px;
   height: 32px;
