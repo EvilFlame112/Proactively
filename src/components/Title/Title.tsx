@@ -1,4 +1,3 @@
-import React from 'react'
 import Banner from '../banner1/Banner'
 import { images } from '../banner1/data';
 import { imagesb } from '../banner1/data2'
